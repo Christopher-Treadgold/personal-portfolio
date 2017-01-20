@@ -1,0 +1,30 @@
+{
+  "name": "a_star",
+  "version": "1.0.0",
+  "description": "A generator that runs one step of the A* pathfinding algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "mocha": "^3.2.0",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill",
+    "start": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "A*",
+    "Pathfinding"
+  ],
+  "author": "Christopher Treadgold",
+  "license": "ISC"
+}
