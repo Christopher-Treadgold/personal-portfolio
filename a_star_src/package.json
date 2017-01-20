@@ -4,7 +4,7 @@
   "description": "A generator that runs one step of the A* pathfinding algorithm",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "a_star/test": "test"
   },
   "dependencies": {
     "webpack": "^1.14.0"

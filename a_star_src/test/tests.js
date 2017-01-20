@@ -1,5 +1,5 @@
-import aStar from "../a-star";
-import generateMaze from "../generate-maze"
+import aStar from "../a_star/a-star";
+import generateMaze from "../a_star/generate-maze"
 var assert = require("assert");
 
 describe("generateMaze", function() {
@@ -131,7 +131,7 @@ describe("aStar", function() {
       }
     },
     {
-      name: "5 x 5 maze with open wall in the middle",
+      name: "5 x 5 maze with wall in the middle",
       maze: {
         maze: [
           [0, 0, 0, 0, 0],
