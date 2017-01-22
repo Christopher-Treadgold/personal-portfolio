@@ -20,7 +20,7 @@ nav a {
 }
 
 section {
-    padding-top: 109px;
+    padding-top: 150px;
 }
 
 footer {
@@ -151,6 +151,7 @@ footer .footer-right {
     background-image: url(./chris-face.jpg);
     background-size: 32px 32px;
     border-radius: 50%;
+    margin-right: 14px;
 }
 
 .blue-link {
