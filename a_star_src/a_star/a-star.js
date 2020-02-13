@@ -1,5 +1,4 @@
 function *aStarGen(maze) {
-  let yobro = 0;
   // Extract data from the maze object
   let nodeMaze = nodesFromMaze( maze.maze, maze.start );
   let startNode = nodeMaze[ maze.start[0] ][ maze.start[1] ];
